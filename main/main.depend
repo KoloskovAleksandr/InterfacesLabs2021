@@ -1,0 +1,198 @@
+# depslib dependency file v1.0
+1619798873 source:e:\student\80101\koloskov\ivankov\main\main.cpp
+	<iostream>
+	<limits>
+	"include/IVector.h"
+	"include/ISet.h"
+	"include/ICompact.h"
+	"include/IDiffProblem.h"
+
+1618386070 e:\student\80101\koloskov\ivankov\main\include\ivector.h
+	<cstddef>
+	<functional>
+	"RC.h"
+	"ILogger.h"
+
+1618386070 e:\student\80101\koloskov\ivankov\main\include\rc.h
+
+1618386070 e:\student\80101\koloskov\ivankov\main\include\ilogger.h
+	"RC.h"
+
+1618661140 e:\student\80101\koloskov\ivankov\main\include\iset.h
+	<cstddef>
+	"IVector.h"
+	"RC.h"
+
+1619725256 e:\student\80101\koloskov\ivankov\main\include\icompact.h
+	"ILogger.h"
+	"IVector.h"
+	"RC.h"
+	"IMultiIndex.h"
+
+1619178960 e:\student\80101\koloskov\ivankov\main\include\imultiindex.h
+	<cstddef>
+	"ILogger.h"
+
+1619194348 e:\student\80101\koloskov\ivankov\main\include\idiffproblem.h
+	"IProblem.h"
+	"IMultiIndex.h"
+
+1619194354 e:\student\80101\koloskov\ivankov\main\include\iproblem.h
+	"ICompact.h"
+	"ILogger.h"
+	"IVector.h"
+
+1619739802 source:e:\student\80101\koloskov\ivankov\main\src\koloskovcompact.cpp
+	"KoloskovCompact.h"
+
+1619640732 e:\student\80101\koloskov\ivankov\main\src\koloskovcompact.h
+	"..\include\ICompact.h"
+	"..\include\ICompactControlBlock.h"
+	<memory>
+
+1619601214 e:\student\80101\koloskov\ivankov\main\include\icompactcontrolblock.h
+	"../include/IVector.h"
+	"../include/IMultiIndex.h"
+	<cstddef>
+
+1619794190 source:e:\student\80101\koloskov\ivankov\main\src\koloskovcompactiterator.cpp
+	"KoloskovCompact.h"
+
+1619104858 source:e:\student\80101\koloskov\ivankov\main\src\koloskovcontolblock.cpp
+	"KoloskovControlBlock.h"
+	"KoloskovSet.h"
+
+1618662422 e:\student\80101\koloskov\ivankov\main\src\koloskovcontrolblock.h
+	"../include/ISetControlBlock.h"
+
+1618661214 e:\student\80101\koloskov\ivankov\main\include\isetcontrolblock.h
+	"IVector.h"
+	<cstddef>
+
+1619655260 e:\student\80101\koloskov\ivankov\main\src\koloskovset.h
+	<memory>
+	"KoloskovControlBlock.h"
+	"..\include\ISet.h"
+
+1619797858 source:e:\student\80101\koloskov\ivankov\main\src\koloskoviterator.cpp
+	"KoloskovSet.h"
+	<limits>
+
+1619654498 source:e:\student\80101\koloskov\ivankov\main\src\koloskovlogger.cpp
+	"KoloskovLogger.h"
+	<new>
+
+1618517094 e:\student\80101\koloskov\ivankov\main\src\koloskovlogger.h
+	<cstdio>
+	"../include/ILogger.h"
+
+1619798512 source:e:\student\80101\koloskov\ivankov\main\src\koloskovmultiindex.cpp
+	"KoloskovMultiIndex.h"
+	<cstdint>
+	<cstdlib>
+	<cstring>
+	<cstddef>
+	<functional>
+
+1619179004 e:\student\80101\koloskov\ivankov\main\src\koloskovmultiindex.h
+	"..\include\IMultiIndex.h"
+
+1619798458 source:e:\student\80101\koloskov\ivankov\main\src\koloskovproblem.cpp
+	"KoloskovProblem.h"
+	<cmath>
+
+1619740056 e:\student\80101\koloskov\ivankov\main\src\koloskovproblem.h
+	"../include/IDiffProblem.h"
+
+1619798422 source:e:\student\80101\koloskov\ivankov\main\src\koloskovset.cpp
+	"KoloskovSet.h"
+	<cstring>
+
+1621704686 source:e:\student\80101\koloskov\koloskovvector\main\main.cpp
+	<iostream>
+	<limits>
+	<windows.h>
+	"include/ILogger.h"
+	"include/IVector.h"
+	"include/ISet.h"
+	"include/ICompact.h"
+	"include/IDiffProblem.h"
+	"include/ISolver.h"
+	"include/IBroker.h"
+
+1621077124 e:\student\80101\koloskov\koloskovvector\main\include\ivector.h
+	<cstddef>
+	<functional>
+	"RC.h"
+	"ILogger.h"
+	"Interfacedllexport.h"
+
+1618386070 e:\student\80101\koloskov\koloskovvector\main\include\rc.h
+
+1621078940 e:\student\80101\koloskov\koloskovvector\main\include\ilogger.h
+	"RC.h"
+	"Interfacedllexport.h"
+
+1621076968 e:\student\80101\koloskov\koloskovvector\main\include\iset.h
+	<cstddef>
+	"IVector.h"
+	"RC.h"
+	"Interfacedllexport.h"
+
+1621076797 e:\student\80101\koloskov\koloskovvector\main\include\icompact.h
+	"ILogger.h"
+	"IVector.h"
+	"RC.h"
+	"IMultiIndex.h"
+	"Interfacedllexport.h"
+
+1621076862 e:\student\80101\koloskov\koloskovvector\main\include\imultiindex.h
+	<cstddef>
+	"ILogger.h"
+	"Interfacedllexport.h"
+
+1621076853 e:\student\80101\koloskov\koloskovvector\main\include\idiffproblem.h
+	"IProblem.h"
+	"IMultiIndex.h"
+	"Interfacedllexport.h"
+
+1621082425 e:\student\80101\koloskov\koloskovvector\main\include\iproblem.h
+	"ICompact.h"
+	"ILogger.h"
+	"IVector.h"
+	"Interfacedllexport.h"
+
+1619654498 source:e:\student\80101\koloskov\koloskovvector\main\src\koloskovlogger.cpp
+	"KoloskovLogger.h"
+	<new>
+
+1618517094 e:\student\80101\koloskov\koloskovvector\main\src\koloskovlogger.h
+	<cstdio>
+	"../include/ILogger.h"
+
+1621075532 source:e:\student\80101\koloskov\koloskovvector\main\src\koloskovproblem.cpp
+	"KoloskovProblem.h"
+	<cmath>
+
+1621002096 e:\student\80101\koloskov\koloskovvector\main\src\koloskovproblem.h
+	"../include/IDiffProblem.h"
+
+1620679696 source:e:\student\80101\koloskov\koloskovvector\main\src\koloskovsolver.cpp
+	"KoloskovSolver.h"
+	<iostream>
+
+1620675860 e:\student\80101\koloskov\koloskovvector\main\src\koloskovsolver.h
+	"..\include\ISolver.h"
+
+1621082506 e:\student\80101\koloskov\koloskovvector\main\include\isolver.h
+	"ILogger.h"
+	"ICompact.h"
+	"ISet.h"
+	"IDiffProblem.h"
+	"Interfacedllexport.h"
+
+1621076898 e:\student\80101\koloskov\koloskovvector\main\include\interfacedllexport.h
+
+1621030044 e:\student\80101\koloskov\koloskovvector\main\include\ibroker.h
+	"Interfacedllexport.h"
+

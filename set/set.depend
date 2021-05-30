@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1619104858 source:e:\student\80101\koloskov\koloskovvector\set\src\koloskovcontolblock.cpp
+	"KoloskovControlBlock.h"
+	"KoloskovSet.h"
+
+1618662422 e:\student\80101\koloskov\koloskovvector\set\src\koloskovcontrolblock.h
+	"../include/ISetControlBlock.h"
+
+1621077101 e:\student\80101\koloskov\koloskovvector\set\include\isetcontrolblock.h
+	"IVector.h"
+	"Interfacedllexport.h"
+	<cstddef>
+
+1621077124 e:\student\80101\koloskov\koloskovvector\set\include\ivector.h
+	<cstddef>
+	<functional>
+	"RC.h"
+	"ILogger.h"
+	"Interfacedllexport.h"
+
+1618386070 e:\student\80101\koloskov\koloskovvector\set\include\rc.h
+
+1621076857 e:\student\80101\koloskov\koloskovvector\set\include\ilogger.h
+	"RC.h"
+	"Interfacedllexport.h"
+
+1621076898 e:\student\80101\koloskov\koloskovvector\set\include\interfacedllexport.h
+
+1619805095 e:\student\80101\koloskov\koloskovvector\set\src\koloskovset.h
+	<memory>
+	"KoloskovControlBlock.h"
+	"..\include\ISet.h"
+
+1621076968 e:\student\80101\koloskov\koloskovvector\set\include\iset.h
+	<cstddef>
+	"IVector.h"
+	"RC.h"
+	"Interfacedllexport.h"
+
+1619797858 source:e:\student\80101\koloskov\koloskovvector\set\src\koloskoviterator.cpp
+	"KoloskovSet.h"
+	<limits>
+
+1619805246 source:e:\student\80101\koloskov\koloskovvector\set\src\koloskovset.cpp
+	"KoloskovSet.h"
+	<cstring>
+
